@@ -9,11 +9,14 @@ body {
 }
 main {
   display: flex;
+  flex-wrap: wrap;
 }
 body {
   background-color: antiquewhite;
 }
 div {
+  flex: 1 0 calc(25% - 10px);
+  max-width: calc(25% - 10px);
   height: 200px;
   width: 200px;
   background-color: blueviolet;
