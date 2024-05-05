@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main{
+    display: flex;
+}
+body {
+  background-color: antiquewhite;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin: 2px;
+}
+#box2 {
+    background-color: brown;
+}
+
+#box3 {
+    
+    background-color: rgb(41, 169, 143);
+}
