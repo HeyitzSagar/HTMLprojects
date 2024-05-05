@@ -22,6 +22,10 @@ body {
   height: 15%;
   background-color: white;
 }
+#fakeheader {
+  height: 15%;
+  width: 100%;
+}
 #contactDetails {
   text-align: center;
   margin-left: 70px;
@@ -50,34 +54,49 @@ body {
 #page1 {
   width: 100%;
   height: 100%;
-  background-color: salmon;
+  background-color: wheat;
+}
+#strip {
+  /* display: flex; */
+  height: 7%;
+  width: 100%;
+  background-color: rgb(5, 5, 89);
+  font-size: 8px;
+  text-align: center;
+}
+#strip h1 {
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
 }
 #page2 {
   width: 100%;
   height: 90%;
   background-color: rgb(13, 185, 253);
 }
-.icon
-{
-    margin-left: 40px;
+.icon {
+  margin-left: 40px;
 }
-#login{
-    margin-left: 40px;
+#login {
+  margin-left: 40px;
 }
-#try{
-    margin-left: 40px;
+#try {
+  margin-left: 40px;
 }
-.TryButton{
-    height: 40px;
-    width: auto;
-    padding: 10px;
-    font-size: medium;
-    background: green;
-    color: white;
-    font-weight: 800;
-    border: none;
-    border-radius: 5px;
+.TryButton {
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  font-size: medium;
+  background: green;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
 }
-.TryButton:hover{
-    background-color: rgb(1, 30, 1);
+.TryButton:hover {
+  background-color: rgb(1, 30, 1);
 }
