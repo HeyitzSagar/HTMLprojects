@@ -1,0 +1,6 @@
+if you want to make the center from the perspective of height 
+then it is align-items : center.
+
+
+If you want to make the center from the perspective of the width
+then it is text-center: center
