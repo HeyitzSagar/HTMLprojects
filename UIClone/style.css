@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  /* padding-top: 10vh; Add padding to the top to accommodate fixed header */
+}
+.header {
+  justify-content: space-between;
+  height: 10vh;
+  position: fixed;
+  width: 100%; /* Make the header span the full width */
+  top: 0; /* Position the header at the top */
+  left: 0; /* Ensure the header starts from the left */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.796
+  ); /* Optional: Add background color */
+}
+.fakeheader {
+  background-color: rgba(247, 213, 213, 0.521);
+  height: 10vh;
+}
+.section1 {
+  height: 90vh; /* Adjust height as needed */
+  text-align: center;
+  padding: 40px;
+}
+.section2 {
+  height: 90vh; /* Adjust height as needed */
+  text-align: center;
+  padding: 10px;
+}
+.equal-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img1 {
+  width: 800px;
+  height: 400px;
+}
+.card1 {
+  margin: 15px !important;
+}
